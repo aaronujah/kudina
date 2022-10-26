@@ -27,7 +27,7 @@ app.post(
     let user = await User.findOne({ phoneNumber : `${phoneNumber}` });
 
     if (text == "" && user) {
-      response = `CON Welcome to Ofafa what do you want to do?
+      response = `CON Welcome to Kudina what do you want to do?
       1. Check balance
       2. Transactions
       3. Check Adashe/Contribution
